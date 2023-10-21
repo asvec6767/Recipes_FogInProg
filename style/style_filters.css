@@ -1,0 +1,46 @@
+.myBtnContainer{
+  font-family: 'Roboto', sans-serif;
+    min-height: 83vh;
+   position: absolute;
+   margin: 43% 252px 0;
+}
+.filterDiv {
+      display: none;  
+  }
+  
+  .show {
+    display: block;
+    text-align: center;
+    justify-content: space-around ;
+   /*  margin: 2px; */
+  }
+  
+  .container {
+   /*  margin-top: 50%; */
+    overflow: hidden;
+  }
+  
+  /* Стиль кнопок */
+  .btn {
+    
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #B5D43B;
+    cursor: pointer;
+    margin-left: 44px;
+    margin-top: 20px;
+    border-color: #434738;
+    border-width: 2px;
+    border-radius: 16px;
+  }
+  
+  .btn:hover {
+    background-color:rgba(43, 43, 43, 0.696);
+    transition: 0.2s linear;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }

@@ -1,0 +1,71 @@
+
+.body_enter{
+background:url(futter.jpg) ;
+background-size: 100%;
+background-attachment: fixed; 
+background-repeat: repeat-x; 
+}
+.header_enter {
+    width: 30%;
+    margin: 40px auto 0px;
+    color: white;
+    background: #b5d43bd1;
+    text-align: center;
+    border: 1px solid #6b6868;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+   /*отвечает за коробку*/
+  }
+.block_under_header{
+    padding:40px;
+  }
+  
+  .form_enter, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #6b6868;
+    /* background: transparent; */
+    border-radius: 0px 0px 10px 10px;
+    backdrop-filter: blur(2px);
+   
+    
+  }
+  /* .text {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #929ca9;
+    background: #70848f3a;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    
+  } */
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn_enter {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #9bb632;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+  }

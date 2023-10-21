@@ -1,0 +1,128 @@
+header{
+	position: fixed;
+	right: 0;
+	top:0;
+	z-index:1000;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content:space-between; 
+	/*background: transparent;*/
+ /*  border: 1px solid #929ca9;
+  background: #8b8d8e; */
+   
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+	position: fixed;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(50, 50, 50);
+  }
+ .navlist{
+    width: 80%;
+	position: relative;
+    
+	/* left:50px; */
+  	line-height: 2;
+	width:100%;
+	display: flex;
+	align-items: center;
+	border-spacing: 7px ;
+	column-gap: 2em;
+	/* padding-left: 10px; */
+	flex-direction: row;
+    display: flex;
+    justify-content: flex; 
+  }
+   
+ .navlist a{
+    color:rgb(50, 50, 50);
+    margin-left:300px;
+    margin-top:300px;
+   /* padding: 10px; */
+    font-size:17px;
+    font-weight: 1000;
+    border-bottom: 2px solid transparent;
+    transition: all .25s ease;
+  }
+  
+.navlist a:hover{
+  text-decoration: underline #48a1d0 ;
+	transition: 0.2s linear;
+	border-style: none;
+    /* transition: 0.35s linear;
+    background: #48a1d0;
+    border: 15px;
+    height: 70vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 3px; */
+    /*margin:150px auto;*/
+  }
+  
+ #menu-icon{
+	color: rgb(50, 50, 50);
+	font-size: 30px;
+	z-index:10001;
+	cursor: pointer;
+}
+#login{
+    position: absolute;
+  right: 0px;
+ 
+   padding: 10px;
+	display: flex;
+    width: 174px;
+    height: 64px;
+    /* top: 57px;
+    left: 1455px; */
+    /* border-radius: 16px; */
+
+}
+#registration{
+    position: absolute;
+  right: 0px;
+	display: flex;
+    width: 271px;
+    height: 64px;
+    /* top: 57px;
+    left: 1159px; */
+    /* border-radius: 16px; */
+}
+.Login-popup{
+	display: inline-block; 
+    border-radius: 16px;
+    height: 64px;
+    top: 57px;
+	color:rgb(50, 50, 50);
+	background: solid transparent;
+	border: 3px solid transparent;
+	/* padding: 9px 10px; */
+	font-size:inherit;
+    font-weight: 1000;
+    border-bottom:  1px solid transparent ;
+	/* font-size: 14px;
+	font-weight: 500; */
+	
+	border-radius: 30px;
+	text-transform: inherit ;
+	transition: all .55s ease;
+
+}
+.Login-popup:hover{
+	/* transform:scale(1.1); */
+	background: #6b6868;
+	border:2px solid transparent;
+	color:#ffffff;
+  
+}
+/* header {
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	transition: all .3s ease;
+}
+header.out {
+	transform: translateY(-100%);
+} */

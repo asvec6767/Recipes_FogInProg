@@ -1,0 +1,52 @@
+img {
+	width: 400px;
+	height: 280px;
+	border-radius: 30px;
+}
+
+div.card{
+	border: 3px solid #000000;
+	border-radius: 30px;
+	margin: 50px 9% 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+	overflow:hidden;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color:#52630E;
+	padding: 30px;
+    border: 1px solid #f7f8f8;
+    background: #f7f8f8;
+	
+}
+h3, h6{
+	margin:0px;
+	padding:0px;
+}
+.card-name h3 {
+	font-size: 14px;
+	font-weight: 400;
+	color:#52630E;
+	font-family: 'Rubik';
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+.card-text h6  {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color:#52630E;
+	margin: 10px;
+}
+h1{
+	font-size: 30px;
+	font-family: 'Rubik';
+	font-weight: 400;
+	color:#52630E;
+	margin: 10px;
+}
+
