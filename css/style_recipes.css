@@ -1,6 +1,6 @@
 img {
-	width: 400px;
-	height: 280px;
+	width: 60%;
+	height:auto;
 	border-radius: 30px;
 }
 
@@ -44,9 +44,12 @@ h3, h6{
 }
 h1{
 	font-size: 30px;
-	font-family: 'Rubik';
+	font-family: 'Rubik',sans-serif;
 	font-weight: 400;
 	color:#52630E;
 	margin: 10px;
+}
+lablel{
+	color:#52630E;
 }
 

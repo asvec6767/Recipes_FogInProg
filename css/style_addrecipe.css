@@ -1,14 +1,15 @@
+.body_add {
+  background:url(Vector\ 6.png) ;
+  background-size: 100%;
+  background-attachment: fixed; 
+  background-repeat: repeat-x; 
+  }
 .block_under_header_lk{
     position: absolute;
     top:18%;
     left:30%;
    }
-   .body_add{
-    background:url(Vector\ 6.png) ;
-    background-size: 100%;
-    background-attachment: fixed; 
-    background-repeat: repeat-x; 
-    }
+  
     
     .form_add {
         width: 100%;
@@ -27,3 +28,7 @@
     top:18%;
     left:30%;
       }
+      .lablel_add{
+        color:#52630E;
+      }
+      

@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="style_work.css">
+  <!-- <link rel="stylesheet" type="text/css" href="style_work.css"> -->
 </head>
 
 
@@ -16,7 +16,7 @@
   </div>
 	
   <form class="form_enter" method="post" action="register.php">
-  	<?php include('errors.php'); ?>
+  	<!--  -->
   	<div class="input-group">
   	  <label>Логин</label>
   	  <input type="text" name="login" value="<?php echo $login; ?>">

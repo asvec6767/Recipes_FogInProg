@@ -19,18 +19,6 @@
 </head>
 <body class="body_add">
 
-<!---<header>
-	<a href="#" class="logo"> Ease </a> 
-    <ul class="navlist">
-	<li> <a href="#">Главная</a> </li>
-	<li> <a href="#">Использование</a> </li>
-	<li> <a href="#">О сайте</a> </li>
-  <li></li>
-  </ul>
-	<div class="bx bx-menu" id="menu-icon"></div>
- </header>--->
-
-
  <?php include "header.php";?>
  <div class="block_under_header_lk">
   <div class="header_add">
@@ -41,17 +29,17 @@
   <form class="form_add" method="post" action="addrecipe.php" enctype="multipart/form-data">
   	<!-- <?php include('errors.php'); ?> -->
 	  
-	  <h2>Добавьте свой рецепт!</h2>
+	  <h3 class="card-name">Добавьте свой рецепт!</h3>
   	<div class="input-group">
-  		<label>Название</label>
+  		<h3 class="card-name">Название</h3>
   		<input type="text" name="name" required>
   	</div>
   	<div class="input-group">
-  		<label>Описание</label>
+  		<h3 class="card-name">Описание</h3>
   		<textarea type="text" name="description" cols="45" rows="8" required></textarea>
   	</div>
 	<div class="input-group">
-  		<label>Фотография</label>
+  		<h3 class="card-name">Фотография</h3>
   		<input type="file" name="file" required>
   	</div>
   	<div class="input-group">

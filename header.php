@@ -6,16 +6,16 @@
   
 
 <!---css file link--->
-<link rel="stylesheet" type="text/css" href="style_index.css">
+<link rel="stylesheet" type="text/css" href="css/style_index.css">
 <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-<link rel="stylesheet" type="text/css" href="style_header1.css">
-<link rel="stylesheet" type="text/css" href="style_cards.css">
-<link rel="stylesheet" type="text/css" href="style_search.css">
-<link rel="stylesheet" type="text/css" href="style_filters.css">
-<link rel="stylesheet" type="text/css" href="style_slidecontainer.css">
-<link rel="stylesheet" type="text/css" href="style_enter.css">
-<link rel="stylesheet" type="text/css" href="style_lk.css">
-<link rel="stylesheet" href="style_recipes.css">
+<link rel="stylesheet" type="text/css" href="css/style_header1.css">
+<link rel="stylesheet" type="text/css" href="css/style_cards.css">
+<link rel="stylesheet" type="text/css" href="css/style_search.css">
+<link rel="stylesheet" type="text/css" href="css/style_filters.css">
+<link rel="stylesheet" type="text/css" href="css/style_slidecontainer.css">
+<link rel="stylesheet" type="text/css" href="css/style_enter.css">
+<link rel="stylesheet" type="text/css" href="css/style_lk.css">
+<link rel="stylesheet" type="text/css" href="css/style_recipes.css">
 
 
 

@@ -61,7 +61,7 @@
   <?php include "header.php";?>
  
 <section class="info">
-    <div class="futter" ><img src="futter5.jpg"/></div>
+    <div class="futter" ><img src="photo/futter5.jpg"/></div>
     
 
 </section>
@@ -141,19 +141,19 @@
     
      
         <div class="container">
-          <div class="filterDiv no_meat 400kk 500kk pasta">  <form class="text" action="index.php" method="post"><button  class="choose" name="btn_1" id="1Pic" 
+          <div class="filterDiv top 400kk 500kk pasta">  <form class="text" action="udon.php" method="post"><button  class="choose" name="btn_1" id="1Pic" 
         data-title="Удон с шиитаке"><img src="photo/udon.png" alt="Удон" class="round"></button>
       <p>Удон с шиитаке</p>
       <h4>30-40 мин</p>
       <h4>346 ккал</p>
       </form></div>
-      <div class="filterDiv time children 300kk 400kk 500kk"><form  class="text" action="index.php" method="post"><button  class="choose" name="btn_2" id="2Pic" 
+      <div class="filterDiv time children 300kk 400kk 500kk"><form  class="text" action="syrnic.php" method="post"><button  class="choose" name="btn_2" id="2Pic" 
         data-title="Сырники с голубикой"><img src="photo/syrnik.png" alt="Сырники" class="round"></button>
       <p>Сырники с голубикой</p>
       <h4>15-20 мин</p>
       <h4>278 ккал</p>
       </form></div>
-    <div class="filterDiv  top 400kk 500kk"> <form  class="text" action="index.php" method="post"><button  class="choose" name="btn_3" id="3Pic" 
+    <div class="filterDiv  top 400kk 500kk"> <form  class="text" action="soup.php" method="post"><button  class="choose" name="btn_3" id="3Pic" 
         data-title="Суп с креветками"><img src="photo/soup.png" alt="Суп" class="round"></button>
     <p>Суп с креветками</p>
     <h4>35-45 мин</p>
